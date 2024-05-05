@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+nav ul li a:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+/* CSS for the About Me section */
+#about {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#about p {
+    display: inline; /* Display paragraphs as inline elements */
+    margin: 0 10px; /* Add some margin between paragraphs */
+    font-weight:500;
+}
+
+
+#skills {
+    line-height: 1.5;
+}
+
+/* CSS for the back-to-top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: none; /* Initially hide the button */
+}
+
+.back-to-top:hover {
+    background-color: #555; /* Change color on hover */
+}
